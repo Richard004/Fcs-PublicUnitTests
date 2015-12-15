@@ -1,3 +1,8 @@
 gclass {gClassA} filename "scriptA.fcs"
-distribution {d1} gclass {gClassA} lcs {Origin={4,4,4},Axes=GCS.Axes} transformation translation direction {0,3,0} repetitions spacings [1,2,0.5] specialization ithparameters {h=ith.i/2+1}
+distribution {d1} gclass {gClassA} lcs {
+  Origin={4,4,4},
+  Axes=GCS.Axes
+} transformation translation direction {0,3,0} repetitions spacings [1,2,0.5] specialization ithparameters {
+  h=ith.i/2+1
+}
 
