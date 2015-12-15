@@ -1,0 +1,4 @@
+h = 2
+vertex {Va} xyz 0 0 0
+vertex {Vb} xyz h 0 0
+curve {crvLoc1} vertex {Va} {Vb}
